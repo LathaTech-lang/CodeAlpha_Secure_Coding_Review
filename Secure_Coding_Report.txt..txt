@@ -1,0 +1,36 @@
+CODEALPHA – SECURE CODING REVIEW
+
+1. Introduction
+
+Secure Coding Review is a process of identifying and fixing security vulnerabilities in software applications.
+
+2. Objective
+
+To identify security problems in Python code and improve application security.
+
+3. Programming Language
+
+Python
+
+4. Security Tool
+
+Bandit – Python Security Analysis Tool.
+
+5. Vulnerability Identified
+
+The original application contained a hardcoded password, which could expose sensitive information.
+
+6. Security Improvement
+
+- Removed the hardcoded password.
+- Used an environment variable to store the password.
+- Used secure password comparison.
+- Scanned the corrected code using Bandit.
+
+7. Result
+
+The original code was scanned using Bandit. Security improvements were made, and the updated code was scanned again.
+
+8. Conclusion
+
+The project helped identify security vulnerabilities and improve Python application security using secure coding practices and Bandit.
